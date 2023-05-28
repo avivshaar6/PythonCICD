@@ -1,6 +1,6 @@
 #!/bin/bash
 
-docker build -t cicd:latest -port 8080:8080 .
+docker build -t cicd:latest .
 
 # docker tag cicd:latest aviv012/cicd:latest
 
